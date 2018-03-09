@@ -9,9 +9,9 @@ gain           = 1 # per day
 gain_noise     = 1
 epochs         = 250
 actual_val = initial_weight
-
+    
 """ g-h filter constants """
-g = 2/10 # Qué tanto trackea la señal original 0=nada 1=todo, responde a cambios en la señal
+g = 2/10 # Qué tanto trackea la señal original 0=nada 1=100%, responde a cambios en la señal
 h = 0    # Oscilaciones del filtro resultante, responde a cambios en la tasa de cambio de la señal
 weight_estimate = 50
 gain_estimate   = 1
